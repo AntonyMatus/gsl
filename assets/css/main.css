@@ -42,8 +42,8 @@ a {
 
 .navbar .container-fluid .btn-contact {
 	background-color: #00529C;
-	font-family: 'Red Hat Display', sans-serif;
-	font-size: 16px;
+	font-family: 'Manrope', sans-serif;
+	font-size: 14px;
 	color: #fff; 
 	display: flex;
 	align-items: center;
@@ -52,6 +52,7 @@ a {
 	padding: 12px 18px;
 	width: 130px;
     height: 45px;
+	border-radius: 12px;
 }
 
 .hero-wrapper {
@@ -821,7 +822,7 @@ a {
 }
 
 .contact-section .container .row {
-	justify-content: center;
+	justify-content: flex-start;
 }
 
 .contact-section .container .row .subtitle {
@@ -862,14 +863,22 @@ a {
 }
 
 .contact-section .container .row .title {
-	color: #4A515B;
-	font-family: 'Red Hat Display', sans-serif;
-	font-weight: 700;
-	font-size: 50px;
-	line-height: 54px;
-	margin-bottom: 30px;
-	margin-left: auto;
-	margin-right: auto;
+	color: #0B0F19;
+	font-family: 'Manrope';
+	font-size: 32px;
+	font-weight: 800;
+	line-height: 42px;
+	letter-spacing: 0px;
+	text-align: center;
+	width: 100%;
+}
+.contact-section .container .row .subtitle {
+	color: #9397AD;
+	font-family: 'Manrope';
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	letter-spacing: 0px;
 	text-align: center;
 	width: 100%;
 }
@@ -917,9 +926,9 @@ a {
 
 .contact-section .container div form button {
 	border: 0;
-	background: #1D4E46;
+	background: #00529C;
 	color: #fff;
-	font-family: 'Red Hat Display';
+	font-family: 'Manrope';
 	font-size: 16px;
 	font-weight: 500;
 	line-height: 18px;
@@ -929,6 +938,7 @@ a {
 	padding: 15px 30px;
 	text-align: center;
 	width: auto;
+	border-radius: 12px;
 	outline: none;
 }
 
