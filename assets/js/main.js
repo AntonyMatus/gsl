@@ -41,6 +41,7 @@
     setBottomOverLayerPosition( 2000 );
     initScrollNavigate();
     stickyFooter();
+    
 
     /****** Swiper slider using params ******/
     setupSwiper();
@@ -2098,5 +2099,34 @@
         }
         
     });
+
+    $('.owl-carousel').owlCarousel({
+        loop: true,
+        items: 3,
+        margin: 10,
+        nav: true,
+        dots: false,
+        center: false,
+        autoplay: true,
+        smartSpeed: 2000,
+        autoplayTimeout: 5000,
+        responsive: {
+            0: {
+                items: 1,
+                margin: 10,
+            },
+            700: {
+                items: 1,
+                margin: 20
+            },
+            1200: {
+                items: 3,
+                margin: 10,
+                autoplay: true
+            }
+        }
+    });
+
+    
     
 })( jQuery );
